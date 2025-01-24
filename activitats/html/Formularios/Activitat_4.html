@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8"/>
+        <title>activitat_4</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"> 
+    </head>
+    <body>
+        <h1>Busca tu Cámaras</h1>
+        <form>
+            <label for="marca">Que marca</label>
+            <select name="marca" id="marca">
+                <option value="" disabled selected>Marca</option>
+                <option value="Canon">Canon</option>
+                <option value="nikon">Nikon</option>
+                <option value="sony">Sony</option>
+                <option value="fujifilm">Fujifilm</option>
+                <option value="olympus">Olympus</option>
+            </select>
+        </form>
+        <p></p>
+
+        <form>
+            <label for="tipo">Tipo de Cámara</label>
+            <select id="tipo" name="tipo">
+                <option value="">Cualquier tipo</option>
+                <option value="dslr">DSLR</option>
+                <option value="mirrorless">Mirrorless</option>
+                <option value="compacta">Compacta</option>
+                <option value="bridge">Bridge</option>
+                <option value="instantanea">Instantánea</option>
+            </select>
+        </form>
+        <p></p>
+
+        <form>
+            <label for="resolucion">Resolución mínima (en MP)</label>
+            <input type="number" id="resolucion" name="resolucion">
+        </form>
+        <p></p>
+        
+        <form>
+            <label for="precio">Rango de precios (€)</label>
+            <input type="number" id="precio-min" name="precio-min">
+            <input type="number" id="precio-max" name="precio-max">
+        </form>
+        <p></p>
+
+        <form>
+            <label for="caracteristicas">Características adicionales</label>
+            <select id="caracteristicas" name="caracteristicas">
+                <option value="4k">Grabación 4K</option>
+                <option value="wifi">Wi-Fi</option>
+                <option value="pantalla-abatible">Pantalla abatible</option>
+                <option value="estabilizacion">Estabilización de imagen</option>
+                <option value="sumergible">Sumergible</option>
+            </select>
+        </form>
+        <p></p>
+        
+        <button type="submit">Buscar</button>
+    </body>
+</html>
