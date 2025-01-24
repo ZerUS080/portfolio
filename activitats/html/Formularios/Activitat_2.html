@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Activitat_2</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"> 
+    </head>
+    <body>
+        <h2>Formulario de Compra - Altavoces</h2>
+
+        <form>
+            <label for="modelo">Modelo</label>
+        <select id="modelo" name="modelo" required>
+            <option value="" disabled selected>¿Qué modelo?</option>
+            <option value="R4">R4</option>
+            <option value="R5">R5</option>
+            <option value="SR1">SR1</option>
+        </select>
+        </form>
+        <p></p>
+        
+        <form>
+            <label for="Potencia máxima">Potencia máxima</label>
+            <input type="number" id="Potencia máxima" min="50" max="100">
+        </form>
+        <p></p>
+    
+        <form>
+            <label for="Bluetooth">Bluetooth</label>
+            <select id="Bluetooth" name="Bluetooth" required>
+                <option value="" disabled selected>¿Bluetooth?</option>
+                <option value="Si">Si</option>
+                <option value="No">No</option> 
+            </select>
+        </form>
+        <p></p>
+
+        <form>
+            <label for="Color">Color</label>
+            <select id="Color" name="Color" required>
+            <option value="" disabled selected>¿Qué color?</option>
+            <option value="Negro">Negro</option>
+            <option value="Blanco">Blanco</option>
+            <option value="Rojo">Rojo</option>
+            <option value="Azul">Azul</option>
+        </select>
+        </form>
+        <p></p>
+        
+        <button type="submit">Enviar</button>
+    </body>
+</html>
