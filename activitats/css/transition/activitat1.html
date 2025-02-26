@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Activitat_1</title>
+        <style>
+            body{
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color:white;
+            }
+            .formulario{
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            }
+            input{
+            display: block;
+            margin-bottom: 15px;
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 5px;
+            }
+            input:focus{
+                border-color: transparent;
+                transform: scale(1.20);
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="formulario">
+            <h1>Formulario</h1>
+            <form>
+                <input type="text" name="nombre" placeholder="Nombre" required>
+                <input type="number" name="telefono" placeholder="Teléfono" required>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </body>
+</html>
