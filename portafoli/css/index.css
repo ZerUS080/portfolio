@@ -84,6 +84,7 @@ span{
 .about-info h2{
     font-size: 2em;
     color: #191C32;
+    margin-bottom: 2px;
 }
 .divider{
     height: 4px;
@@ -94,6 +95,7 @@ span{
 }
 .about p{
     margin-bottom: 1em;
+    font-style:"Roboto", serif ;
 }
 
 
