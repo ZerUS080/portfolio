@@ -2,7 +2,7 @@
 
 body{
     font-family: "Roboto", serif;
-    background-color: #191C32;
+    background-color: black;
 }
 .warrap{
     width: 100vw;
@@ -18,7 +18,7 @@ body{
     color:white;
 }
 .brand span{
-    color: aqua;
+    color: orange;
     margin-top: -15px;
 }
 .menu li {
@@ -38,11 +38,11 @@ body{
     
 }
 .menu .active{
-    color: aqua;
+    color: orange;
 }
 .menu a:hover{
-    background-color: aqua;
-    color: #191C32;
+    background-color: orange;
+    color: black;
     transition: ease-in .4s;
 }
 .main{
@@ -55,7 +55,7 @@ body{
 } 
 
 span{
-    color: aqua;
+    color: orange;
 }
 .main h1{
     font-size: 3rem;
@@ -68,12 +68,12 @@ span{
     background: white;
     margin-left: 12rem;
     border: 1px solid white;
-    box-shadow: 10px 5px 5px aqua;
+    box-shadow: 10px 5px 5px orange;
 }
 .about img{
     width: 100%;
     grid-column: 1/5;
-    border: 5px solid aqua;
+    border: 5px solid orange;
 
 }
 .about-info{
@@ -83,19 +83,113 @@ span{
 
 .about-info h2{
     font-size: 2em;
-    color: #191C32;
+    color: black;
     margin-bottom: 2px;
 }
 .divider{
     height: 4px;
     width: 60px;
-    background-color: aqua;
+    background-color: orange;
     margin-top: 10px;
     margin-bottom: 2em;
 }
 .about p{
     margin-bottom: 1em;
     font-style:"Roboto", serif ;
+}
+
+.portafolio {
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+.portafolio h2{
+    font-size: 3rem;
+    margin-top: 3em;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 200px;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.card_img {
+    width: 100%;
+    height: 180px;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.card_title h2 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.projects-links a {
+    color: orange;
+    font-size: 1.5em;
+    margin: 5px;
+}
+
+.contacto {
+    text-align: center;
+    padding: 20px;
+  
+    color: white;
+    margin-top: 5em;
+}
+
+.contacto h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.divider {
+    height: 4px;
+    width: 60px;
+    background-color: orange;
+    margin: 0 auto 20px;
+}
+
+.contacto form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacto input,
+.contacto textarea {
+    width: 80%;
+    max-width: 400px;
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.contacto button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: orange;
+    color: black;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contacto button:hover {
+    background-color: darkorange;
 }
 
 
