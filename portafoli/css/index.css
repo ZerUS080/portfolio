@@ -191,6 +191,25 @@ span{
 .contacto button:hover {
     background-color: darkorange;
 }
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+    color: white;
+    margin-top: 5em;
+}
+.social-links {
+    margin-top: 10px;
+}
+.social-links a {
+    color: orange;
+    font-size: 1.5em;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+.social-links a:hover {
+    color: darkorange;
+}
 
 
 
