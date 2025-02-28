@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Activitat_1</title>
+        <style>
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                margin: 0;
+                background-color: #000;
+            }
+    
+            .sol {
+                width: 150px;
+                height: 150px;
+                background-color: yellow;
+                border-radius: 50%;
+                position: relative;
+            }
+    
+            .luna {
+                width: 150px;
+                height: 150px;
+                background-color: grey;
+                border-radius: 50%;
+                position: absolute;
+                top: 0;
+                left: 0;
+                animation: eclipse 7s infinite;
+            }
+    
+            @keyframes eclipse {
+                0% {
+                    transform: translateX(-150px);
+                }
+                50% {
+                    transform: translateX(0);
+                }
+                100% {
+                    transform: translateX(150px);
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="sol">
+            <div class="luna"></div>
+        </div>
+    </body>
+</html>
