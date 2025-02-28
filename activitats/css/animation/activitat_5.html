@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Activitat_5</title>
+        <style>
+            body{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: black;
+                min-height: 100vh;
+                margin: 0;
+            }
+    
+            .loader {    
+                width: 100px;
+                height: 100px;
+                border: 10px solid white;
+                border-radius: 50%;
+                border-bottom: solid transparent 10px;
+                animation: loading 1s infinite linear;
+            }
+    
+    
+            @keyframes loading {
+                from {
+                    transform: rotate(0deg);
+                }
+                to {
+                    transform: rotate(360deg);
+                }   
+            }
+        </style>
+    </head>
+    <body>
+        <div class="loader"></div>
+    </body>
+    
+</html>
