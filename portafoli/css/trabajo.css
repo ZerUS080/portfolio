@@ -1,0 +1,78 @@
+
+body {
+    font-family: "Roboto", serif;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+
+h1 {
+    font-size: 2.5em;
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    color: orange;
+    text-align: center;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    background-color: black;
+}
+
+.brand {
+    color: white;
+}
+
+.brand span {
+    color: orange;
+}
+
+.menu {
+    display: flex;
+    justify-content: center; 
+    width: 100%;
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    color: white;
+    margin: 0 10px; 
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.menu a:hover {
+    background-color: orange;
+    color: black;
+}
+
+
+li a {
+    font-style: italic;
+    
+}
+
+a{
+    color: white;
+    
+}
+li{
+    text-align: center;
+    color: black;
+}
+
