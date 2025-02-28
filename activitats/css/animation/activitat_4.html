@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Activitat_4</title>
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+                width: 100vw;
+                height: 100vh;
+                background-color: darkgray;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+    
+            .reloj {
+                position: relative;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 300px;
+                width: 300px;
+                border: 10px solid black;
+                border-radius: 50%;
+                background-color: white;
+            }
+    
+            .agujas {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+            }
+    
+            .agujas div {
+                position: absolute;
+                bottom: 50%;
+                left: 50%;
+                transform-origin: 50% 100%;
+                transition: transform 0.1s ease-out;
+            }
+    
+            .hora {
+                width: 8px;
+                height: 60px;
+                background-color: black;
+                transform-origin: 50% 100%;
+            }
+    
+            .minutos {
+                width: 4px;
+                height: 90px;
+                background-color: black;
+                transform-origin: 50% 100%;
+            }
+    
+            .segundos {
+                width: 2px;
+                height: 120px;
+                background-color: red;
+                transform-origin: 50% 100%;
+            }
+    
+            .hora {
+                animation: girarHoras 43200s infinite linear;
+            }
+    
+            .minutos {
+                animation: girarMinutos 3600s infinite linear;
+            }
+    
+            .segundos {
+                animation: girarSegundos 60s infinite linear;
+            }
+
+            @keyframes girarHoras {
+                0% {
+                    transform: rotate(0deg);
+                }
+                100% {
+                    transform: rotate(360deg);
+                }
+            }
+    
+            @keyframes girarMinutos {
+                0% {
+                    transform: rotate(0deg);
+                }
+                100% {
+                    transform: rotate(360deg);
+                }
+            }
+    
+            @keyframes girarSegundos {
+                0% {
+                    transform: rotate(0deg);
+                }
+                100% {
+                    transform: rotate(360deg);
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="reloj">
+            <div class="agujas">
+                <div class="hora"></div>
+                <div class="minutos"></div>
+                <div class="segundos"></div>
+            </div>
+        </div>
+    </body>
+    
+</html>
