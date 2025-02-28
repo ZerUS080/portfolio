@@ -1,0 +1,103 @@
+/* Reset de margenes y padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales para el body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Estilo para el header y barra de navegación */
+header {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.brand h1 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.brand h1 span {
+    color: #f39c12; /* Color para la segunda letra 'B' */
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.menu a.active,
+.menu a:hover {
+    color: #f39c12; /* Color cuando se activa o al hacer hover */
+}
+
+/* Estilo para el contenedor principal */
+.wireframe-container {
+    width: 90%;
+    margin: 30px auto;
+    text-align: center;
+}
+
+/* Estilo para los títulos principales */
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Estilo para el enlace de descarga */
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover h3 {
+    color: #f39c12; /* Cambio de color al hacer hover */
+}
+
+/* Estilo para la imagen */
+img {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.05); /* Efecto de zoom cuando el ratón pasa por encima */
+}
+
+/* Estilo para el texto debajo de la imagen */
+h3 {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #333;
+    font-weight: normal;
+    transition: color 0.3s ease;
+}
