@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Activitat_6</title>
+        <style>
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                background-color: black;
+                margin: 0;
+            }
+    
+            .pendulo {
+                width: 10px;
+                height: 150px;
+                background-color: white;
+                transform-origin: top center;
+                animation: swing 2s infinite ease-in-out;
+            }
+    
+            @keyframes swing {
+                0% {
+                    transform: rotate(-30deg);
+                }
+                50% {
+                    transform: rotate(30deg);
+                }
+                100% {
+                    transform: rotate(-30deg);
+                }
+            }
+    
+          
+        </style>
+    </head>
+    <body>
+        <div class="pendulo"></div>
+    </body>
+</html>

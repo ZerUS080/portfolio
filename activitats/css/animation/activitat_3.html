@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Activitat_3</title>
+        <style>
+            body {
+                background-color: black;
+                margin: 0;
+                padding: 0;
+                width: 100%;
+                height: 100vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-family: Arial, sans-serif;
+            }
+            .cookies {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                animation: fadeIn 5s linear forwards; 
+                opacity: 0; 
+            }
+            .cookies-text {
+                width: 300px; 
+                padding: 20px;
+                border-radius: 10px;
+                background-color: white;
+                text-align: center;
+                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            }
+    
+            
+            .cookies-title {
+                color: brown;
+                font-size: 2rem;
+                margin-bottom: 20px;
+            }
+    
+            .buttons {
+                display: flex;
+                justify-content: center;
+                gap: 15px;
+            }
+            
+            .cookies-accept, .cookies-refuse {
+                padding: 10px 20px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                font-size: 1rem;
+                transition: background-color 0.3s ease;
+            }
+    
+            .cookies-accept {
+                background-color: #4CAF50; 
+                color: white;
+            }
+    
+            .cookies-accept:hover {
+                background-color: #45a049; 
+            }
+    
+            .cookies-refuse {
+                background-color: #f44336; 
+                color: white;
+            }
+    
+            .cookies-refuse:hover {
+                background-color: #d32f2f; 
+            }
+    
+            
+            @keyframes fadeIn {
+                0% {
+                    opacity: 0;
+                }
+                20% {
+                    opacity: 0;
+                }
+                100% {
+                    opacity: 1;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="cookies">
+            <div class="cookies-text">
+                <h1 class="cookies-title">Cookies</h1>
+                <div class="buttons">
+                    <button class="cookies-accept">Acceptar</button>
+                    <button class="cookies-refuse">Rebutjar</button>
+                </div>
+            </div>
+        </div>
+    </body>
+    
+</html>
